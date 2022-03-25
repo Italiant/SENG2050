@@ -1,0 +1,108 @@
+/*  Name: Thomas Miller
+ *  Student Number: C3279309
+ *  Date: 31/03/2019
+ *  Course: SENG2050, Assignment 1
+ *  CSS: style
+*/
+
+.false { /* sets the text and the background of the case button to red to hide the case value and prevents text selection */
+	background-color: red;
+	color: red;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	font-size: 0;
+	border-radius: 8px;
+	width: 200px;
+	height: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+     user-select: none; /* Non-prefixed version, currently
+                         supported by Chrome and Opera */
+}
+.false:hover{ /* still hides the text when the mouse is hovered */
+	background-color: #e60000;
+	color: #e60000;
+}
+
+.true { /* sets the background to gold and the text to black when a case is selected */
+	background-color: #ffcc00;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	font-size: 38px;
+	border-radius: 8px;
+	width: 200px;
+	height: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.deal { /* the deal button */
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}	
+
+.deal:hover{
+	background-color: #45a049;
+}
+
+.noDeal { /* the no deal button */
+	background-color: #f96b48;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}	
+
+.noDeal:hover{
+	background-color: #f75831;
+}
+
+.one{ /* the start new game and load existing game buttons on the index page */
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.one:hover{
+background-color: #45a049;
+}
+
+/* the submit and reset buttons on the saveGame page */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  background-color: #f96b48;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=reset]:hover {
+  background-color: #f75831;
+}
